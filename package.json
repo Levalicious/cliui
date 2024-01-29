@@ -1,5 +1,5 @@
 {
-  "name": "cliui",
+  "name": "re-cliui",
   "version": "8.0.1",
   "description": "easily create complex multi-column command-line-interfaces",
   "main": "build/index.cjs",
@@ -28,7 +28,7 @@
     "build:cjs": "rollup -c",
     "prepare": "npm run compile"
   },
-  "repository": "yargs/cliui",
+  "repository": "Levalicious/cliui",
   "standard": {
     "ignore": [
       "**/example/**"

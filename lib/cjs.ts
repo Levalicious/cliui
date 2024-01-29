@@ -1,8 +1,8 @@
 // Bootstrap cliui with CommonJS dependencies:
-import { cliui, UIOptions } from './index.js'
-const stringWidth = require('string-width')
-const stripAnsi = require('strip-ansi')
-const wrap = require('wrap-ansi')
+import { cliui, UIOptions } from './index.js';
+import stringWidth from 'string-width';
+import wrap from 'wrap-ansi'
+import stripAnsi from 'wrap-ansi'
 export default function ui (opts: UIOptions) {
   return cliui(opts, {
     stringWidth,

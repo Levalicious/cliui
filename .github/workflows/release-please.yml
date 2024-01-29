@@ -12,7 +12,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          package-name: cliui
+          package-name: re-cliui
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
